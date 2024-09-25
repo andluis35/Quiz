@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto prático de acessibilidade na construção de um quiz" />
+        <title>Quiz - Esportes</title>
+        <link rel="stylesheet" href="../style/styles.css">
+        <link rel="stylesheet" href="../style/student-info.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <a href="./index.html"> <img id="logo" src="../images/quiz_logo.png" alt="quiz logo"> </a>
+            <h1 class="acessibility-title">Projeto de Acessibilidade</h1>
+
+            <nav>
+                <ul class="buttons">
+                    <li> <a href="./student-info.html"> <button class="nav-button">Informações</button> </a></li>
+                    <li> <a href="./general-knowledge.html"> <button class="nav-button">Conhecimentos Gerais</button> </a></li>
+                    <li> <a href="./geography.html"> <button class="nav-button">Geografia do Mundo</button> </a></li>
+                    <li> <a href="./art.html"> <button class="nav-button">Idioma, literatura & arte </button> </a></li>
+                    <li> <a href="./history.html"> <button class="nav-button">História & Fashion</button> </a></li>
+                    <li> <a href="./pop-culture.html"> <button class="nav-button">Cultura Pop & Música</button> </a></li>
+                    <li> <a href="./sports.html"> <button class="nav-button">Esportes</button> </a></li>
+                    <li> <a href="./movies.html"> <button class="nav-button">Filmes & Televisão</button> </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="...">
+                <section role="region" aria-labelledby="sports-questions">
+                    <h2 id="sports-questions">Esportes</h2>
+                
+                    <div class="grid-container">
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 1</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="sports-question-one">
+                                <legend>Onde foram realizados os primeiros Jogos Olímpicos modernos?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Atenas, em 1896</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Atenas, em 2004</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Munique, 1972</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Seul, 1988</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 2</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="sports-question-two">
+                                <legend>Qual time de futebol é conhecido como “The Red Devils”?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Wolves</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Flamengo</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Leicester City</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Manchester United</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 3</span> </h3>
+                            <fieldset class="question grid-item" name="sports-question-three">
+                                <legend>Qual motorista ganhou mais campeonatos de Fórmula 1?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Lewis Hamilton</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Felipe Massa</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Michael Schumacher</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Ayrton Senna</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 4</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="sports-question-four">
+                                <legend>Quem é a terceira na lista de campeões de todos os tempos do Grand Slam?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Bia Haddad-Maia</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Rafael Nadal</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Serena Williams</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Carlos Alcaraz</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </section>
+                <input class="submit-button" type="submit" name="submit-button" value="Verificar Respostas">
+            </form>
+        </main>
+    </body>
+</html>

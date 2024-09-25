@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto prático de acessibilidade na construção de um quiz" />
+        <title>Quiz - Informações</title>
+        <link rel="stylesheet" href="../style/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="./index.html"> <img id="logo" src="../images/quiz_logo.png" alt="quiz logo"> </a>
+            <h1 class="acessibility-title">Projeto de Acessibilidade</h1>
+
+            <nav>
+                <ul class="buttons">
+                    <li> <a href="./student-info.html"> <button class="nav-button">Informações</button> </a></li>
+                    <li> <a href="./general-knowledge.html"> <button class="nav-button">Conhecimentos Gerais</button> </a></li>
+                    <li> <a href="./geography.html"> <button class="nav-button">Geografia do Mundo</button> </a></li>
+                    <li> <a href="./art.html"> <button class="nav-button">Idioma, literatura & arte </button> </a></li>
+                    <li> <a href="./history.html"> <button class="nav-button">História & Fashion</button> </a></li>
+                    <li> <a href="./pop-culture.html"> <button class="nav-button">Cultura Pop & Música</button> </a></li>
+                    <li> <a href="./sports.html"> <button class="nav-button">Esportes</button> </a></li>
+                    <li> <a href="./movies.html"> <button class="nav-button">Filmes & Televisão</button> </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="...">
+                <section role="region" aria-labelledby="student-info">
+                    <h2 id="student-info">Informações do Estudante</h2>
+                    <div class="student-info-frame">
+
+                        <p class="label-p">Nome:</p>
+                        <div class="info">
+                            <label for="student-name"></label>
+                            <input id="student-name" type="text" name="student-name" required/>
+                        </div>
+
+                        <p class="label-p">Email:</p>
+                        <div class="info">
+                            <label for="student-email"></label>
+                            <input id="student-email" type="email" name="student-email" required/>
+                        </div>
+
+                        <p class="label-p">Data de Nascimento:</p>
+                        <div class="info">
+                            <label for="student-birth"></label>
+                            <input id="student-birth" type="date" name="student-birth" required/>
+                        </div>
+
+                        <p class="label-p">Ocupação:</p>
+                        <div class="info">
+                            <label for="student-occupation"></label>
+                            <select id="student-occupation" name="student-occupation" required>
+                                <option value="">Selecione sua graduação</option>
+                                <option value="1">Tecnologia da Informação</option>
+                                <option value="2">Matemática</option>
+                                <option value="3">Engenharia</option>
+                                <option value="4">Enfermagem</option>
+                                <option value="5">Direito</option>
+                                <option value="6">Medicina</option>
+                                <option value="7">Arquitetura</option>
+                                <option value="8">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="info">
+                            <fieldset>
+                                <legend>Grupo Étnico-Racial</legend>
+                                <label id="afro-label" for="afro"> <input id="afro" type="radio" name="ethnic-group"> Afrodescendente</label>
+                                <label id="asian-label" for="asian"> <input id="asian" type="radio" name="ethnic-group"> Asiático</label>
+                                <label id="white-label" for="white"> <input id="white" type="radio" name="ethnic-group"> Branco</label>
+                                <label id="another-ethnic-label" for="another-ethnic-group"> <input id="another-ethnic-group" type="radio" name="ethnic-group" checked=""> Outro</label>
+                            </fieldset>
+                        </div>
+
+                        <div class="info">
+                            <fieldset>
+                                <legend>Gênero</legend>
+                                <label id="male-label" for="male"> <input id="male" type="radio" name="gender"> Masculino</label>
+                                <label id="female-label" for="female"> <input id="female" type="radio" name="gender"> Feminino</label>
+                                <label id="another-gender-label" for="another-gender"> <input id="another-gender" type="radio" name="gender"> Outro</label>
+                                <label id="none-gender-label" for="none"> <input id="none" type="radio" name="gender" checked=""> Prefiro não informar</label>
+                            </fieldset>
+                        </div>
+                        <input class="submit-button" type="submit" name="submit" value="Processar Informações">
+                    </div>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>

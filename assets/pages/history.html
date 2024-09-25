@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto prático de acessibilidade na construção de um quiz" />
+        <title>Quiz - História & Fashion</title>
+        <link rel="stylesheet" href="../style/styles.css">
+        <link rel="stylesheet" href="../style/student-info.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <a href="./index.html"> <img id="logo" src="../images/quiz_logo.png" alt="quiz logo"> </a>
+            <h1 class="acessibility-title">Projeto de Acessibilidade</h1>
+
+            <nav>
+                <ul class="buttons">
+                    <li> <a href="./student-info.html"> <button class="nav-button">Informações</button> </a></li>
+                    <li> <a href="./general-knowledge.html"> <button class="nav-button">Conhecimentos Gerais</button> </a></li>
+                    <li> <a href="./geography.html"> <button class="nav-button">Geografia do Mundo</button> </a></li>
+                    <li> <a href="./art.html"> <button class="nav-button">Idioma, literatura & arte </button> </a></li>
+                    <li> <a href="./history.html"> <button class="nav-button">História & Fashion</button> </a></li>
+                    <li> <a href="./pop-culture.html"> <button class="nav-button">Cultura Pop & Música</button> </a></li>
+                    <li> <a href="./sports.html"> <button class="nav-button">Esportes</button> </a></li>
+                    <li> <a href="./movies.html"> <button class="nav-button">Filmes & Televisão</button> </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="...">
+                <section role="region" aria-labelledby="history-questions">
+                    <h2 id="history-questions">História & Fashion</h2>
+                
+                    <div class="grid-container">
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 1</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="history-question-one">
+                                <legend>Quando o metrô de Londres foi inaugurado?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1863</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1711</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1908</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1815</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 2</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="history-question-two">
+                                <legend>Quando foi a primeira publicação da Vogue?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1892</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1960</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">2000</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">1915</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 3</span> </h3>
+
+                            <fieldset class="question grid-item" name="history-question-three">
+                                <legend>Quando a sonda Apolo 11 pousou na lua?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">20 de Julho de 1969</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">14 de Fevereiro de 1989</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">5 de Setembro de 1946</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">30 de Dezembro de 1955</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 4</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="history-question-four">
+                                <legend>Quem inventou o termo WWW (World Wide Web)?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Tim Burton</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Tim Maia</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Tim Berners-Lee</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Tim Kang</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </section>
+                <input class="submit-button" type="submit" name="submit-button" value="Verificar Respostas">
+            </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto prático de acessibilidade na construção de um quiz" />
+        <title>Quiz - Idioma, literatura & arte</title>
+        <link rel="stylesheet" href="../style/styles.css">
+        <link rel="stylesheet" href="../style/student-info.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <a href="./index.html"> <img id="logo" src="../images/quiz_logo.png" alt="quiz logo"> </a>
+            <h1 class="acessibility-title">Projeto de Acessibilidade</h1>
+
+            <nav>
+                <ul class="buttons">
+                    <li> <a href="./student-info.html"> <button class="nav-button">Informações</button> </a></li>
+                    <li> <a href="./general-knowledge.html"> <button class="nav-button">Conhecimentos Gerais</button> </a></li>
+                    <li> <a href="./geography.html"> <button class="nav-button">Geografia do Mundo</button> </a></li>
+                    <li> <a href="./art.html"> <button class="nav-button">Idioma, literatura & arte </button> </a></li>
+                    <li> <a href="./history.html"> <button class="nav-button">História & Fashion</button> </a></li>
+                    <li> <a href="./pop-culture.html"> <button class="nav-button">Cultura Pop & Música</button> </a></li>
+                    <li> <a href="./sports.html"> <button class="nav-button">Esportes</button> </a></li>
+                    <li> <a href="./movies.html"> <button class="nav-button">Filmes & Televisão</button> </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="...">
+                <section role="region" aria-labelledby="art-questions">
+                    <h2 id="art-questions">Idioma, literatura & arte</h2>
+                
+                    <div class="grid-container">
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 1</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="art-question-one">
+                                <legend>Qual é a série de livros mais vendida do século 21?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Percy Jackson</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Harry Potter</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">O Senhor dos Anéis</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Jogos Vorazes</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 2</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="art-question-two">
+                                <legend>De acordo com os dicionários, qual idioma tem o maior número de palavras?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Inglês, com aproximadamente 350.000</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Alemão, com aproximadamente 330.000</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Italiano, com aproximadamente 280.000</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Português, com aproximadamente 410.000</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 3</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="art-question-three">
+                                <legend>O artista norueguês Edvard Munch é famoso por pintar qual peça icônica?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">O Grito</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Noite Estrelada</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Monalisa</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Guernica</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 4</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="art-question-four">
+                                <legend>Qual artista pintou o teto da Capela Sistina, em Roma?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Donatello</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Leonardo</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Michelangelo</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Rafael</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </section>
+                <input class="submit-button" type="submit" name="submit-button" value="Verificar Respostas">
+            </form>
+        </main>
+    </body>
+</html>

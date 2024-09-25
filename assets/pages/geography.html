@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto prático de acessibilidade na construção de um quiz" />
+        <title>Quiz - Geografia do Mundo</title>
+        <link rel="stylesheet" href="../style/styles.css">
+        <link rel="stylesheet" href="../style/student-info.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <a href="./index.html"> <img id="logo" src="../images/quiz_logo.png" alt="quiz logo"> </a>
+            <h1 class="acessibility-title">Projeto de Acessibilidade</h1>
+
+            <nav>
+                <ul class="buttons">
+                    <li> <a href="./student-info.html"> <button class="nav-button">Informações</button> </a></li>
+                    <li> <a href="./general-knowledge.html"> <button class="nav-button">Conhecimentos Gerais</button> </a></li>
+                    <li> <a href="./geography.html"> <button class="nav-button">Geografia do Mundo</button> </a></li>
+                    <li> <a href="./art.html"> <button class="nav-button">Idioma, literatura & arte </button> </a></li>
+                    <li> <a href="./history.html"> <button class="nav-button">História & Fashion</button> </a></li>
+                    <li> <a href="./pop-culture.html"> <button class="nav-button">Cultura Pop & Música</button> </a></li>
+                    <li> <a href="./sports.html"> <button class="nav-button">Esportes</button> </a></li>
+                    <li> <a href="./movies.html"> <button class="nav-button">Filmes & Televisão</button> </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="...">
+                <section role="region" aria-labelledby="geography-questions">
+                    <h2 id="geography-questions">Geografia do Mundo</h2>
+                
+                    <div class="grid-container">
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 1</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="geography-question-one">
+                                <legend>Qual país tem mais ilhas no mundo?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Suécia, com aproximadamente 220.000</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Estados Unidos, com aproximadamente 4.500</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Indonésia, com aproximadamente 14.000</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Finlândia, com aproximadamente 180.000</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 2</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="geography-question-two">
+                                <legend>Qual é o menor país do mundo?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Suíça</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Vaticano</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Jamaica</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Haiti</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 3</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="geography-question-three">
+                                <legend>Qual é o rio mais longo do mundo? </legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Mississipi, com 6.212km</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Amazonas, com 6.568km</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Yangtze, com 6.300km</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Rio Nilo, com 6.650km</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="question-block">
+                            <h3> <span class="sr-only">Question 4</span> </h3>
+                            
+                            <fieldset class="question grid-item" name="geography-question-four">
+                                <legend>Onde é o lugar natural mais baixo do planeta Terra?</legend>
+                                <ul>
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Baku (14.636m abaixo do nível do mar)</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Antártida (2.540m abaixo do nível do mar)</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Fossa das Marianas (11.034m abaixo do nível do mar)</label>
+                                    </li>
+
+                                    <li> 
+                                        <input id="option" type="radio" name="general-knowledge-option" /> 
+                                        <label for="option">Fossa de Java (7.725m abaixo do nível do mar)</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                    <input class="submit-button" type="submit" name="submit-button" value="Verificar Respostas">
+                </section>
+                
+            </form>
+        </main>
+    </body>
+</html>
